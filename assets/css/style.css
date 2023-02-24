@@ -4,3 +4,160 @@
   box-sizing: border-box;
 }
 
+
+
+
+.top-bar {
+  margin-top: 0;
+  height: 50px;
+  background-color: #0E0E0E;
+
+}
+
+body{
+  position: relative;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 13px;
+  background-color: black;
+  margin-top: 50px;
+  margin-bottom: 60px;
+
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  
+  margin: 0 auto;
+  
+  
+}
+header {
+  text-align: right;
+  margin-top: 0;
+  height: 20px;
+}
+
+header div {
+  
+  display: inline;
+  background-color: rgba(211, 211, 211, 0.5);
+  padding: 5px;
+  border-radius: 3px;
+}
+header div a {
+ 
+  text-decoration: none;
+  color: white;
+}
+
+header div a::before {
+
+
+}
+
+header div i {
+  width: 5px;
+  color: white;
+
+}
+
+
+.container-card {
+
+  position: relative;
+  height: 100px;
+  width: 150px;
+  margin: 3px;
+  margin-bottom: 10px;
+
+  background-color: red ;
+}
+
+.name {
+  position: absolute;
+  bottom: 3px; 
+  padding: 5px ;
+  background-color: rgba(64 ,70, 75, 0.5);
+  color: white;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: smaller;
+}
+
+.name i{
+  color:white;
+}
+
+
+
+.bottom-bar {  
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  line-height: 50px;
+  background-color: #0E0E0E;
+  width: 100%;
+  height: 60px;
+
+}
+
+.bottom-bar .menu-chiamata, .menu-centrale, .exit {
+  display: flex;
+}
+
+
+.bottom-bar ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.bottom-bar ul li {
+  text-align: center;
+}
+
+.bottom-bar ul li a{
+  line-height: 100%;
+  display: block;
+  margin-left: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.fa-solid {
+  font-size: 20px;
+}
+
+
+.fa-chevron-up {
+  font-size: 10px;
+  margin: 0 5px;
+}
+
+
+.fa-share-from-square {
+  color: green;
+}
+
+.exit button{
+  background-color: #4A4A4A;
+  color: red;
+  font-size: 13px;
+  
+  padding: 10px;
+}
+
+header {
+  color: white;
+  width: 100%;
+
+}
+
+
+
+
